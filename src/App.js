@@ -42,7 +42,7 @@ function App() {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 100000,
+    autoplaySpeed: 5000,
     beforeChange: (_, next) => setSlideIndex(next),
     centerMode: true,
     nextArrow: <SampleNextArrow />,
